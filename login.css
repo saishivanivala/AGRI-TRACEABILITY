@@ -1,0 +1,120 @@
+
+
+html{
+    height:100%;
+}
+
+body{
+    height:100%;
+    background-color:grey !important;
+} 
+
+.intro{
+    height:100%
+  }
+  
+.login-form input.form-control{
+  /* border-bottom: 1px solid black !important; */
+  /* border:none; */
+  border-radius: 3px;
+  box-shadow: none;
+  margin-top: 5px;
+}
+
+.signup-form input.form-control{
+  /* border-bottom: 1px solid black !important; */
+  /* border:none; */
+  border-radius: 3px;
+  box-shadow: none;
+  /* margin-top: 5px; */
+  margin-bottom: 5px;
+}
+
+.left-section{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color:#111;
+    height : 100%;
+    color : #FFF;
+  
+}
+
+.right-section{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color:#FFF;
+    height : 100%;
+    color :#111;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    transition: 0.3s; 
+    height: 90%;
+    width: 90%;
+    border-radius: 2px;
+    overflow: hidden;
+    
+}
+  
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+} 
+
+.login-container{
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+
+.signup-container{
+  padding-left: 5%;
+  padding-top: 0%;
+}
+
+a:link{
+  color :grey;
+  font-weight: bold;
+}
+
+.credentials-tabs a:hover{
+  background-color: transparent;
+}
+
+.credentials-tabs {
+  display: flex; 
+  color: grey;
+} 
+
+.credentials-section{
+  width :90%;
+  height:85%;
+}
+
+.credentials-tabs li.active a{
+  font-size: 20px; 
+  font-weight: bold;
+  color: #d3d3d3;
+  background: #111 ;
+}
+
+.custom-tab-content{
+  display: inline-block;
+  width:100%; 
+}
+
+/*
+  @media (min-width: 768px) {
+    .h-md-100 { height: 100vh; }
+} */
